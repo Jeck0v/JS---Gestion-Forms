@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    form {
+        display: flex;
+        flex-direction: column;
+    }
+
+</style>
+<body>
+    <form action="" method="get">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email">
+        <small id="email-error"></small>
+
+        <label for="password">Password: </label>
+        <input type="password" name="password" id="password">
+        <small id="min-length">Au minimum 9 caractères</small>
+        <small id="max-length">Au maximum 24 caractères</small>
+        <small id="uppercase">Une majuscule</small>
+        <small id="digit">Un chiffre</small>
+        <small id="special">Un Caractère Spécial</small>
+        <!-- <label for="passwordVerif">Répétition du mot de passe</label>
+        <input type="password" name="passwordVerif" id="password">
+        <small id="passwordVerif">Le même mot de passe</small> -->
+        <input type="submit" id="validate" value="Envoyer">
+    </form>
+    
+</body>
+<script src="script.js"></script>
+</html>

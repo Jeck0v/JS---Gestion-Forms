@@ -62,6 +62,5 @@ password.addEventListener('input', function(){
     Special ? passSpecial.style.color = " green" : passSpecial.style.color = "red";
 
 
-    // const repetPass = passVerif.match(passValue);
-    // repetPass ? passVerif.style.color ="green" : passVerif.style.color = "red";
+    
 });
